@@ -37,17 +37,33 @@ export default function Contact() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    const newErrors = validateForm();
-    if (Object.keys(newErrors).length === 0) {
-      setSubmitted(true);
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setTimeout(() => setSubmitted(false), 3000);
-    } else {
-      setErrors(newErrors);
-    }
-  };
+  e.preventDefault();
 
+  const newErrors = validateForm();
+
+  if (Object.keys(newErrors).length === 0) {
+    const phoneNumber = "94781803792"; // your WhatsApp number (no +)
+
+    const message = `Hello SysVoraSL,
+
+Name: ${formData.name}
+Email: ${formData.email}
+Subject: ${formData.subject}
+Message: ${formData.message}`;
+
+    const encodedMessage = encodeURIComponent(message);
+
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    // Open WhatsApp
+    window.open(whatsappURL, "_blank");
+
+    // Reset form
+    setFormData({ name: '', email: '', subject: '', message: '' });
+  } else {
+    setErrors(newErrors);
+  }
+};
   const contactInfo = [
     {
       icon: Mail,
