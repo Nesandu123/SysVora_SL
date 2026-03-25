@@ -17,7 +17,7 @@ const features = [
   {
     icon: Award,
     title: 'Proven Track Record',
-    description: '10+ years of delivering excellence',
+    description: '2+ years of delivering excellence',
   },
 ];
 

@@ -52,19 +52,19 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@sysvorasl.com',
+      value: 'nesandu2002@gmail.com',
       link: 'mailto:hello@sysvorasl.com',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+94 781803792',
+      link: 'tel:+94781803792',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Colombo, Sri Lanka',
       link: null,
     },
   ];
