@@ -68,7 +68,7 @@ Message: ${formData.message}`;
     {
       icon: Mail,
       label: 'Email',
-      value: 'nesandu2002@gmail.com',
+      value: 'sysvorasl@gmail.com',
       link: 'mailto:hello@sysvorasl.com',
     },
     {
