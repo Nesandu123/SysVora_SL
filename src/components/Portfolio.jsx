@@ -16,7 +16,7 @@ const projects = [
     title: 'Website for Tourism Company',
     description: 'Responsive website for a tourism company',
     category: 'Web Application',
-    image: 'https://www.freepik.com/premium-photo/historic-gall-fort-lighthouse-sri-lanka_18967523.htm#fromView=keyword&page=1&position=13&uuid=0dbb7343-f699-4bc6-baf7-aedc170db235&query=Sri+lanka+tourism?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e',
     link: '#',
   },
   {
