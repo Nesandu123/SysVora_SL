@@ -10,7 +10,7 @@ const projects = [
     description: 'Modern e-commerce solution with real-time inventory and payment processing',
     category: 'Web Application',
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    link: '#',
+    link: 'https://burgersite-ten.vercel.app',
   },
   {
     title: 'Healthcare Mobile App',
