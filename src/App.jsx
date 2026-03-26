@@ -6,10 +6,12 @@ import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ThreeBackground from "./components/ThreeBackground";
 
 export default function App() {
   return (
     <>
+      <ThreeBackground />
       <Header />
       <Hero />
       <Services />
