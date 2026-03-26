@@ -17,14 +17,14 @@ const projects = [
     description: 'Responsive website for a tourism company',
     category: 'Web Application',
     image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e',
-    link: '#',
+    link: 'https://voyana-tours.vercel.app/',
   },
   {
-    title: 'FinTech Dashboard',
-    description: 'Financial analytics platform with real-time data visualization',
+    title: 'Website for Vehicle Spare-Parts Selling Agency',
+    description: 'Responsive website for a vehicle spare-parts selling agency',
     category: 'Web Application',
     image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-    link: '#',
+    link: 'https://primeauto-frontend.onrender.com',
   },
   {
     title: 'Social Media Platform',
@@ -33,20 +33,7 @@ const projects = [
     image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#',
   },
-  {
-    title: 'AI-Powered Analytics',
-    description: 'Machine learning platform for business intelligence and predictions',
-    category: 'AI/ML',
-    image: 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800',
-    link: '#',
-  },
-  {
-    title: 'Logistics Management',
-    description: 'Supply chain optimization with real-time tracking and routing',
-    category: 'Enterprise',
-    image: 'https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=800',
-    link: '#',
-  },
+  
 ];
 
 export default function Portfolio() {
