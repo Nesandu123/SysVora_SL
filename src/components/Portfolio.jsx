@@ -23,7 +23,7 @@ const projects = [
     title: 'Website for Vehicle Spare-Parts Selling Agency',
     description: 'Responsive website for a vehicle spare-parts selling agency',
     category: 'Web Application',
-    image: 'https://waterdogmedia.com/car-reviews/2014-bmw-i8-review-mission-possible/#iLightbox[gallery36036]/0',
+    image: <img src="/images/burger1.jpg" alt="Burger" />,
     link: 'https://primeauto-frontend.onrender.com',
   },
   {
