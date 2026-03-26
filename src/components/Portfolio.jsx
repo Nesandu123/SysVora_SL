@@ -23,7 +23,7 @@ const projects = [
     title: 'Website for Vehicle Spare-Parts Selling Agency',
     description: 'Responsive website for a vehicle spare-parts selling agency',
     category: 'Web Application',
-    image: <img src="/images/burger1.jpg" alt="Burger" />,
+    image: <img src="/images/sparepart.jpg" alt="Burger" />,
     link: 'https://primeauto-frontend.onrender.com',
   },
   {
