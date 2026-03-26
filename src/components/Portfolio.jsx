@@ -13,10 +13,10 @@ const projects = [
     link: 'https://burgersite-ten.vercel.app',
   },
   {
-    title: 'Healthcare Mobile App',
-    description: 'Patient management system with telemedicine capabilities',
-    category: 'Mobile App',
-    image: 'https://images.pexels.com/photos/48604/pexels-photo-48604.jpeg?auto=compress&cs=tinysrgb&w=800',
+    title: 'Website for Tourism Company',
+    description: 'Responsive website for a tourism company',
+    category: 'Web Application',
+    image: 'https://www.freepik.com/premium-photo/historic-gall-fort-lighthouse-sri-lanka_18967523.htm#fromView=keyword&page=1&position=13&uuid=0dbb7343-f699-4bc6-baf7-aedc170db235&query=Sri+lanka+tourism?auto=compress&cs=tinysrgb&w=800',
     link: '#',
   },
   {
